@@ -1,0 +1,11 @@
+display_board = Array.new(6) {Array.new(7," ")}
+
+p display_board
+p display_board.each{|row|
+  row.each{|column|
+    p "Running"
+    column = 1
+      }
+    }
+
+    p display_board
